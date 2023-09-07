@@ -1,7 +1,7 @@
 import express from "express";
 import db from "./utils/database.js";
 import Todo from "./models/todos.model.js";
-// import "dotenv/config";
+import "dotenv/config";
 
 Todo;
 
