@@ -8,7 +8,7 @@ const db = new Sequelize({
     port: process.env.DB_PORT,
     password: process.env.DB_PASSWORD,
     dialect: "postgres",
-    // dialectOptions: {ssl: {requiered: true, rejectUnauthorized: false}} // => solo para enviar al FL0, en localhost comentarlo
+    dialectOptions: {ssl: {requiered: true, rejectUnauthorized: false}} // => solo para enviar al FL0, en localhost comentarlo
 });
 
 export default db;
